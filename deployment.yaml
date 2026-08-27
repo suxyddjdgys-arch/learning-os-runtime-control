@@ -4,9 +4,9 @@ updated_at: 2026-08-27T17:40:00+08:00
 deployment:
   id: learning-os-production
   topology: split
-  epoch: 1
+  epoch: 2
   write_state: frozen
 core:
   repository_id: 1343815302
-  commit: 8eb61acc08d9a2b6801f3baac020acecef6809a1
+  commit: d392773c3f9f8ef7c0a5417d2f588467d22acb69
   repository_full_name: suxyddjdgys-arch/learning-os-core
