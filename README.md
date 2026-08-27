@@ -1,16 +1,12 @@
 # Learning OS — Runtime-Control
 
-Status: NONCANONICAL V0.4 TARGET
+The minimal public deployment authority for Learning OS V0.4.
 
-This repository is a staging target only.
-It has no current production authority.
+`deployment.yaml` owns only deployment ID/topology/epoch/write state and the
+numeric repository ID plus exact commit of Core. Instance identity, private
+project-design lineage, migration authorization, receipts, learner state and
+credentials are forbidden here.
 
-Canonical production remains:
-
-suxyddjdgys-arch/learning-os
-release 0.3.2
-topology LEGACY
-
-Plane intended future role:
-
-public nonsecret runtime-visible deployment contract
+Repository names are navigation metadata. Numeric repository IDs are security
+identity. Ordinary Runtime may read this repository but has no write
+capability; deployment mutation is a narrow maintenance CAS.
